@@ -15,6 +15,24 @@
 		3D50DA86202AF36C00643BB1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D50DA85202AF36C00643BB1 /* README.md */; };
 		3D7199BB1FAAC95F004EE86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7199BA1FAAC95F004EE86F /* LaunchScreen.storyboard */; };
 		3D7199BD1FAACA25004EE86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7199BC1FAACA25004EE86F /* Main.storyboard */; };
+		3D95A00121666721008B4397 /* ApiCallEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FEA21666721008B4397 /* ApiCallEndpoint.swift */; };
+		3D95A00221666721008B4397 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FEB21666721008B4397 /* ApiCall.swift */; };
+		3D95A00321666721008B4397 /* CallSignalPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FED21666721008B4397 /* CallSignalPayload.swift */; };
+		3D95A00421666721008B4397 /* CallSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FEE21666721008B4397 /* CallSignal.swift */; };
+		3D95A00521666721008B4397 /* CallEnggine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FF021666721008B4397 /* CallEnggine.swift */; };
+		3D95A00621666721008B4397 /* QiscusRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FF121666721008B4397 /* QiscusRTC.swift */; };
+		3D95A00721666721008B4397 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FF321666721008B4397 /* SoundManager.swift */; };
+		3D95A00821666721008B4397 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FF421666721008B4397 /* CallManager.swift */; };
+		3D95A00921666721008B4397 /* CallCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FF521666721008B4397 /* CallCenter.swift */; };
+		3D95A00A21666721008B4397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D959FF621666721008B4397 /* Assets.xcassets */; };
+		3D95A00B21666721008B4397 /* CallUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FF821666721008B4397 /* CallUser.swift */; };
+		3D95A00C21666721008B4397 /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FF921666721008B4397 /* Call.swift */; };
+		3D95A00D21666721008B4397 /* CallUIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FFB21666721008B4397 /* CallUIPresenter.swift */; };
+		3D95A00E21666721008B4397 /* CallUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D959FFC21666721008B4397 /* CallUI.xib */; };
+		3D95A00F21666721008B4397 /* VideoCallUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D959FFD21666721008B4397 /* VideoCallUI.xib */; };
+		3D95A01021666721008B4397 /* VideoCallUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FFE21666721008B4397 /* VideoCallUI.swift */; };
+		3D95A01121666721008B4397 /* CallUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D959FFF21666721008B4397 /* CallUI.swift */; };
+		3D95A01221666721008B4397 /* QiscusCallClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A00021666721008B4397 /* QiscusCallClient.swift */; };
 		3D97F90B203D1D0E00F2635A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D97F909203D1D0E00F2635A /* ViewController.swift */; };
 		3D97F90C203D1D0E00F2635A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D97F90A203D1D0E00F2635A /* ViewController.xib */; };
 		3DAF8BD82064DBDF003F53C8 /* dialing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3DAF8BD52064DBDF003F53C8 /* dialing.mp3 */; };
@@ -40,6 +58,24 @@
 		3D50DA85202AF36C00643BB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D7199BA1FAAC95F004EE86F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7199BC1FAACA25004EE86F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3D959FEA21666721008B4397 /* ApiCallEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCallEndpoint.swift; sourceTree = "<group>"; };
+		3D959FEB21666721008B4397 /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		3D959FED21666721008B4397 /* CallSignalPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSignalPayload.swift; sourceTree = "<group>"; };
+		3D959FEE21666721008B4397 /* CallSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSignal.swift; sourceTree = "<group>"; };
+		3D959FF021666721008B4397 /* CallEnggine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallEnggine.swift; sourceTree = "<group>"; };
+		3D959FF121666721008B4397 /* QiscusRTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiscusRTC.swift; sourceTree = "<group>"; };
+		3D959FF321666721008B4397 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		3D959FF421666721008B4397 /* CallManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		3D959FF521666721008B4397 /* CallCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallCenter.swift; sourceTree = "<group>"; };
+		3D959FF621666721008B4397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D959FF821666721008B4397 /* CallUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallUser.swift; sourceTree = "<group>"; };
+		3D959FF921666721008B4397 /* Call.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		3D959FFB21666721008B4397 /* CallUIPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallUIPresenter.swift; sourceTree = "<group>"; };
+		3D959FFC21666721008B4397 /* CallUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallUI.xib; sourceTree = "<group>"; };
+		3D959FFD21666721008B4397 /* VideoCallUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCallUI.xib; sourceTree = "<group>"; };
+		3D959FFE21666721008B4397 /* VideoCallUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCallUI.swift; sourceTree = "<group>"; };
+		3D959FFF21666721008B4397 /* CallUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallUI.swift; sourceTree = "<group>"; };
+		3D95A00021666721008B4397 /* QiscusCallClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiscusCallClient.swift; sourceTree = "<group>"; };
 		3D97F909203D1D0E00F2635A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D97F90A203D1D0E00F2635A /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		3DAF8BD52064DBDF003F53C8 /* dialing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dialing.mp3; sourceTree = "<group>"; };
@@ -99,6 +135,15 @@
 		0457BC3F1FA9DB95008D3866 /* QiscusRTC */ = {
 			isa = PBXGroup;
 			children = (
+				3D959FF621666721008B4397 /* Assets.xcassets */,
+				3D959FFA21666721008B4397 /* Controllers */,
+				3D959FEF21666721008B4397 /* Enggine */,
+				3D959FF221666721008B4397 /* Managers */,
+				3D959FF721666721008B4397 /* Models */,
+				3D95A00021666721008B4397 /* QiscusCallClient.swift */,
+				3D959FF121666721008B4397 /* QiscusRTC.swift */,
+				3D959FE921666721008B4397 /* Service */,
+				3D959FEC21666721008B4397 /* Signal */,
 				3DAF8BD42064DBDF003F53C8 /* Tone */,
 				0457BC401FA9DB95008D3866 /* QiscusRTC.h */,
 				0457BC411FA9DB95008D3866 /* Info.plist */,
@@ -119,6 +164,63 @@
 				5D760A6F203290500049706F /* MainApp.swift */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		3D959FE921666721008B4397 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3D959FEA21666721008B4397 /* ApiCallEndpoint.swift */,
+				3D959FEB21666721008B4397 /* ApiCall.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3D959FEC21666721008B4397 /* Signal */ = {
+			isa = PBXGroup;
+			children = (
+				3D959FED21666721008B4397 /* CallSignalPayload.swift */,
+				3D959FEE21666721008B4397 /* CallSignal.swift */,
+			);
+			path = Signal;
+			sourceTree = "<group>";
+		};
+		3D959FEF21666721008B4397 /* Enggine */ = {
+			isa = PBXGroup;
+			children = (
+				3D959FF021666721008B4397 /* CallEnggine.swift */,
+			);
+			path = Enggine;
+			sourceTree = "<group>";
+		};
+		3D959FF221666721008B4397 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3D959FF321666721008B4397 /* SoundManager.swift */,
+				3D959FF421666721008B4397 /* CallManager.swift */,
+				3D959FF521666721008B4397 /* CallCenter.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3D959FF721666721008B4397 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D959FF821666721008B4397 /* CallUser.swift */,
+				3D959FF921666721008B4397 /* Call.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D959FFA21666721008B4397 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D959FFB21666721008B4397 /* CallUIPresenter.swift */,
+				3D959FFC21666721008B4397 /* CallUI.xib */,
+				3D959FFD21666721008B4397 /* VideoCallUI.xib */,
+				3D959FFE21666721008B4397 /* VideoCallUI.swift */,
+				3D959FFF21666721008B4397 /* CallUI.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		3DAF8BD42064DBDF003F53C8 /* Tone */ = {
@@ -192,7 +294,6 @@
 				0457BC391FA9DB95008D3866 /* Frameworks */,
 				0457BC3A1FA9DB95008D3866 /* Headers */,
 				0457BC3B1FA9DB95008D3866 /* Resources */,
-				54B537756E603EE221773B9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,7 +313,6 @@
 				0457BC491FA9DBAA008D3866 /* Frameworks */,
 				0457BC4A1FA9DBAA008D3866 /* Resources */,
 				C118EAD8364267E689FED417 /* [CP] Embed Pods Frameworks */,
-				C3F16C40405B3D89B9FAC846 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +335,7 @@
 				TargetAttributes = {
 					0457BC3C1FA9DB95008D3866 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					0457BC4B1FA9DBAA008D3866 = {
@@ -268,9 +369,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D50DA86202AF36C00643BB1 /* README.md in Resources */,
+				3D95A00F21666721008B4397 /* VideoCallUI.xib in Resources */,
 				3DAF8BD92064DBDF003F53C8 /* incoming.mp3 in Resources */,
 				0457BC5F1FA9E18C008D3866 /* QiscusRTC.podspec in Resources */,
 				3DAF8BDA2064DBDF003F53C8 /* reconnecting.mp3 in Resources */,
+				3D95A00E21666721008B4397 /* CallUI.xib in Resources */,
+				3D95A00A21666721008B4397 /* Assets.xcassets in Resources */,
 				3DAF8BD82064DBDF003F53C8 /* dialing.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,21 +410,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54B537756E603EE221773B9D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiscusRTC/Pods-QiscusRTC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7B5A671C94909C0258D88416 /* [CP] Check Pods Manifest.lock */ = {
@@ -383,21 +472,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C3F16C40405B3D89B9FAC846 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -405,6 +479,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D95A00B21666721008B4397 /* CallUser.swift in Sources */,
+				3D95A00221666721008B4397 /* ApiCall.swift in Sources */,
+				3D95A00421666721008B4397 /* CallSignal.swift in Sources */,
+				3D95A00121666721008B4397 /* ApiCallEndpoint.swift in Sources */,
+				3D95A00821666721008B4397 /* CallManager.swift in Sources */,
+				3D95A00C21666721008B4397 /* Call.swift in Sources */,
+				3D95A00D21666721008B4397 /* CallUIPresenter.swift in Sources */,
+				3D95A00921666721008B4397 /* CallCenter.swift in Sources */,
+				3D95A00321666721008B4397 /* CallSignalPayload.swift in Sources */,
+				3D95A01021666721008B4397 /* VideoCallUI.swift in Sources */,
+				3D95A00521666721008B4397 /* CallEnggine.swift in Sources */,
+				3D95A00721666721008B4397 /* SoundManager.swift in Sources */,
+				3D95A01221666721008B4397 /* QiscusCallClient.swift in Sources */,
+				3D95A00621666721008B4397 /* QiscusRTC.swift in Sources */,
+				3D95A01121666721008B4397 /* CallUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +631,7 @@
 			baseConfigurationReference = 23C3518DC2962611B1C6662C /* Pods-QiscusRTC.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -557,6 +647,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qiscusdev.rtc.QiscusRTC;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -567,6 +658,7 @@
 			baseConfigurationReference = 76816A9CBAE575C37BC5C64C /* Pods-QiscusRTC.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
