@@ -174,8 +174,8 @@ class CallEnggine: NSObject {
     func configureAudioSession() {
         // See https://forums.developer.apple.com/thread/64544
         let session = AVAudioSession.sharedInstance()
-        try? session.setCategory(AVAudioSessionCategoryPlayAndRecord)
-        try? session.setMode(AVAudioSessionModeVoiceChat)
+        try? session.setCategory(.playAndRecord, mode: .default, options: [])
+        try? session.setMode(AVAudioSession.Mode.voiceChat)
         try? session.setPreferredSampleRate(44100.0)
         try? session.setPreferredIOBufferDuration(0.005)
     }

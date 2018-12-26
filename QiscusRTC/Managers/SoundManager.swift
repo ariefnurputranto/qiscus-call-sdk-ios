@@ -54,9 +54,14 @@ class SoundManager {
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url, fileTypeHint: nil)
             if (internalSpeaker) {
-                try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord)
+                try?
+                    AVAudioSession.sharedInstance().setCategory(.playAndRecord, mode: .default, options: [])
+                
             }else{
-                try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: AVAudioSessionCategoryOptions.defaultToSpeaker)
+                try?
+                AVAudioSession.sharedInstance().setCategory(.playAndRecord, mode: .default, options: [])
+                
+                //AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playAndRecord, with: AVAudioSession.CategoryOptions.defaultToSpeaker)
             }
             self.audioPlayer?.prepareToPlay()
             audioPlayer?.play()

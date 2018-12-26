@@ -44,7 +44,7 @@ class CallCenter: NSObject {
         providerConfiguration.supportedHandleTypes = [.generic]
         
         if let icon = appIcon {
-            providerConfiguration.iconTemplateImageData = UIImagePNGRepresentation(icon)
+            providerConfiguration.iconTemplateImageData = icon.pngData()
         }
         
         self.provider = CXProvider(configuration: providerConfiguration)

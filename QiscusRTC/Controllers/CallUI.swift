@@ -107,7 +107,7 @@ class CallUI: UIViewController {
         buttonSpeaker.layer.cornerRadius    = buttonSpeaker.frame.height/2
         buttonSpeaker.clipsToBounds         = true
         
-        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.regular)
+        let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.regular)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.alpha = 0.8
         blurEffectView.frame = self.imageBgAvatar.frame
